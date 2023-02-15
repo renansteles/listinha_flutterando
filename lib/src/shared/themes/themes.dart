@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:listinha/src/shared/themes/color_schemes.g.dart';
 
-final darkTheme = ThemeData(
+ThemeData get darkTheme => ThemeData(
             useMaterial3: true,
             colorScheme: darkColorScheme,
             appBarTheme: AppBarTheme(
@@ -12,7 +12,7 @@ final darkTheme = ThemeData(
 
 
 
-final lightTheme = ThemeData(
+ThemeData get lightTheme => ThemeData(
             useMaterial3: true,
             colorScheme: lightColorScheme,
               appBarTheme: AppBarTheme(
